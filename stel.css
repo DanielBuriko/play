@@ -1,0 +1,62 @@
+td {
+    border: 2px solid red;
+ }
+ .contnt{
+     background-color: rgba(59, 40, 197, 0.877);
+ }
+ .poesc{
+    padding: 10px 25px;
+    background-color:aquamarine;
+ }
+ .natpese{
+     background-color:rgb(241, 241, 209);
+     height: 65px;
+    display: flex;
+    align-items: center;
+ }
+ .natpese a{
+   color: blue;
+   margin: 0 10px;
+   font-size: 24px;
+   display: flex;
+ }
+ .apps{
+   background-color:rgb(77, 184, 67);
+   height: 40px;
+   width: 180px;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  font-size: 24px;
+ }
+.apps p{
+  display: inline-block;
+  background-color:rgb(120, 184, 67);
+}
+.carta{ 
+  background-color:rgb(236, 240, 233);
+width: 182px;
+margin: 1px;
+padding: 15px;
+transition: 1.3s;
+}
+.ygra{
+  display: flex;
+  flex-flow: wrap;
+}
+.carta:hover{
+  background-color: rgb(255, 208, 0);
+}
+.natpese .aktiv{
+  color: rgb(165, 14, 253);
+}
+footer{
+  height: 100px;
+  background-color: rgb(0, 255, 13);
+font-size: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
